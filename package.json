@@ -1,0 +1,28 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "This is my application to control a LED string and all that cool stuff and fun stuff ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wes977/RPILED.git"
+  },
+  "keywords": [
+    "LED",
+    "PI"
+  ],
+  "author": "Wes Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wes977/RPILED/issues"
+  },
+  "homepage": "https://github.com/wes977/RPILED#readme",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "express": "^4.15.2",
+    "pi-gpio": "0.0.8"
+  }
+}
